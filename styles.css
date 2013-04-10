@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#menu_holder {position:relative; width:90%; margin:0 5%}
+#bigimage { width:100%;  height:40em; position:absolute; top:0; left:0}
+#bigimage img{ width:100%;}
+#bigimagery { width:100%;}
+#bigimagery img { width:100%;  }
+.ui-loader {display:none!important}
