@@ -50,7 +50,8 @@ function detectmob() {
 	  for (var h in data) {		 
 			if (intmovpct >= h*sumd && intmovpct < (h*sumd+sumd)) {
 			 $('.imagerotation').css("display", "none"); 
-			 $('#img'+h).css("display", "inline");			
+			 $('#img'+h).css("display", "inline");	
+			 $('#text-container').empty().append(data[h][1]);
 			} 
 		 }
 			
@@ -69,7 +70,8 @@ function detectmob() {
 		 for (var k in data) {		 
 			if (ui.value >= k*sumd && ui.value < (k*sumd+sumd)) {
 			 $('.imagerotation').css("display", "none"); 
-			 $('#img'+k).css("display", "inline");			
+			 $('#img'+k).css("display", "inline");	
+			 $('#text-container').empty().append(data[k][1]);
 			} 
 		 }
 	});
