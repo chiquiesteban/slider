@@ -6,3 +6,4 @@
 #bigimagery { width:100%;}
 #bigimagery img { width:100%;  }
 .ui-loader {display:none!important}
+#text-container { width:100%; display:inline; float:left; margin-top:1em;}
